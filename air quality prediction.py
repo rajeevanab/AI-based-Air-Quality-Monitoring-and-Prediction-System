@@ -1,7 +1,22 @@
 import pandas as pd
 import numpy as np
-sn1 = pd.read_csv("record.csv")
+from tkinter import *
+from PIL import Image, ImageTk
+import time
+value=[1]
 
+root = Tk()
+root.wm_title("Air Quality prediction")
+root.after(3000, root.destroy)# adjusting timer
+root.geometry("891x555")
+load = Image.open("predict.jpg")
+render = ImageTk.PhotoImage(load)
+img = Label(root, image=render)
+img.image = render
+img.place(x=0, y=0)
+root.mainloop()
+
+sn1 = pd.read_csv("record.csv")
 sn1
 sn1['ppm'].min()
 sn1['ppm'].max()
@@ -38,6 +53,7 @@ X = sn1.drop(columns=['air_quality'])
 Y = sn1['air_quality']
 x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.30)
 x_train
+print("LogisticRegression")
 from sklearn.linear_model import LogisticRegression
 model = LogisticRegression()
 # model training
@@ -53,8 +69,35 @@ inverted
 x_test[0:10]
 
 #PREDICTING FOR A NEW VALUE NORMAL/ABNORMAL AIR QUALITY
-new_xtest = [[6]]
+new_xtest = [[5]]
 new_pred =  model.predict(new_xtest)
 new_inverted = list(le.inverse_transform(new_pred))
-print('predicted air quality:')
-print(new_inverted)
+print('predicted air quality:',str(new_inverted[0]))
+# making air Quality UI
+if new_pred == value:
+        root = Tk()
+        root.wm_title("Air Quality normal")
+        root.geometry("600x408")
+        root.after(5000, root.destroy)# adjusting timer
+        load = Image.open("open.jpg")
+        render = ImageTk.PhotoImage(load)
+        img = Label(root, image=render)
+        img.image = render
+        img.place(x=0, y=0)
+        root.mainloop()
+else :
+        root = Tk()
+        root.wm_title("Air Quality abnormal")
+        root.geometry("600x380")
+        
+        root.after(5000, root.destroy)# adjusting timer
+        load = Image.open("close.jpg")
+        render = ImageTk.PhotoImage(load)
+        img = Label(root, image=render)
+        img.image = render
+        img.place(x=0, y=0)
+        root.mainloop()
+        
+
+        
+
