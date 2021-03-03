@@ -2,6 +2,7 @@ python basics
 
 1. giraffe academy        https://www.youtube.com/watch?v=aZZkEdWxBQs&list=PLLAZ4kZ9dFpOgGFXroiJH0jsmUt1x-R1_ 
 2. python with beginners  https://www.youtube.com/watch?v=kqtD5dpn9C8
+3. programiz              https://www.programiz.com/python-programming
 
 
 Arduino basics
@@ -13,13 +14,14 @@ AI basics
 
 1. edureka        https://www.youtube.com/watch?v=JMUxmLyrhSk
 2. simplilearn    https://www.youtube.com/watch?v=FWOZmmIUqHg 
+3. javapoint      https://www.javatpoint.com/artificial-intelligence-tutorial
 
 
 ML basics
 
-1. edureka       https://www.youtube.com/watch?v=GwIo3gDZCVQ&t=23s
-2. codebasics    https://www.youtube.com/watch?v=gmvvaobm7eQ&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw
-
+1. edureka          https://www.youtube.com/watch?v=GwIo3gDZCVQ&t=23s
+2. codebasics       https://www.youtube.com/watch?v=gmvvaobm7eQ&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw
+3. analyticsvidhya  https://www.analyticsvidhya.com/blog/2015/06/machine-learning-basics/
 
 sending data from arduino to python
  
