@@ -6,8 +6,8 @@ python basics
 
 Arduino basics
 
-1.Arduino Tutorial 1   https://www.youtube.com/watch?v=fJWR7dBuc18
-2.Arduino Tutorial 2   https://www.youtube.com/watch?v=9uHZB7-T_XA
+1. Arduino Tutorial 1   https://www.youtube.com/watch?v=fJWR7dBuc18
+2. Arduino beginners   https://core-electronics.com.au/tutorials/arduino-workshop-for-beginners.html
 
 AI basics
 
