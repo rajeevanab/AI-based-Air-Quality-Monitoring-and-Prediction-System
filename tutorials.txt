@@ -4,6 +4,11 @@ python basics
 2. python with beginners  https://www.youtube.com/watch?v=kqtD5dpn9C8
 
 
+Arduino basics
+
+1.Arduino Tutorial 1   https://www.youtube.com/watch?v=fJWR7dBuc18
+2.Arduino Tutorial 2   https://www.youtube.com/watch?v=9uHZB7-T_XA
+
 AI basics
 
 1. edureka        https://www.youtube.com/watch?v=JMUxmLyrhSk
