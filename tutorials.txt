@@ -1,26 +1,35 @@
 python basics
 
-1. giraffe academy        https://www.youtube.com/watch?v=aZZkEdWxBQs&list=PLLAZ4kZ9dFpOgGFXroiJH0jsmUt1x-R1_ 
-2. python with beginners  https://www.youtube.com/watch?v=kqtD5dpn9C8
-3. programiz              https://www.programiz.com/python-programming
+1. The semicolon       https://www.youtube.com/watch?v=eP5obr3V6dI
+2. howcode             https://www.youtube.com/watch?v=I2wURDqiXdM
+3. Telusko             https://www.youtube.com/watch?v=hEgO047GxaQ
 
 
 Arduino basics
 
-1. Arduino Tutorial 1   https://www.youtube.com/watch?v=fJWR7dBuc18
-2. Arduino beginners   https://core-electronics.com.au/tutorials/arduino-workshop-for-beginners.html
+1. https://www.arduinoplatform.com/arduino-sensors/reading-analog-or-digital-values-from-infrared-sensors-with-arduino
+2. https://www.allaboutcircuits.com/projects/using-the-arduinos-analog-io/
+3. https://www.learnrobotics.org/blog/read-analog-sensors-arduino/
+
+Introduction to MQ3 Sensor 	
+
+1. Analog to digital conversion 	https://youtu.be/CIfzZfONe04
+
+CSV Data conversion
+
+1. Python program for CSV conversion  	https://makersportal.com/blog/2018/2/25/python-datalogger-reading-the-serial-output-from-arduino-to-analyze-data-using-pyserial
+2. Learn Robotics https://www.youtube.com/watch?v=vayAp84vea8
 
 AI basics
 
-1. edureka        https://www.youtube.com/watch?v=JMUxmLyrhSk
-2. simplilearn    https://www.youtube.com/watch?v=FWOZmmIUqHg 
+1. edureka        https://www.youtube.com/watch?v=oV74Najm6Nc
+2. tensorflow     https://www.youtube.com/watch?v=tXVNS-V39A0
 3. javapoint      https://www.javatpoint.com/artificial-intelligence-tutorial
-
 
 ML basics
 
-1. edureka          https://www.youtube.com/watch?v=GwIo3gDZCVQ&t=23s
-2. codebasics       https://www.youtube.com/watch?v=gmvvaobm7eQ&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw
+1. simplilearn      https://www.youtube.com/watch?v=ukzFI9rgwfU
+2. tensorflow       https://www.youtube.com/watch?v=KNAWp2S3w94
 3. analyticsvidhya  https://www.analyticsvidhya.com/blog/2015/06/machine-learning-basics/
 
 sending data from arduino to python
